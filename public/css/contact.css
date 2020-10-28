@@ -1,0 +1,20 @@
+/* This file designs the contact information at the bottom of the CV */
+
+/* .contact {
+} */
+
+.contact .contact-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.contact .contact-list a {
+  display: inline-block;
+  background-color:var(--color-green);
+  color: white;
+  margin-bottom: var(--space-medium);
+  padding: var(--space-small);
+}
+.contact .contact-list a:hover {
+  background-color: black;
+}
