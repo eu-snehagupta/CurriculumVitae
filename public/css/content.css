@@ -15,6 +15,13 @@
 .content .project-list span {
   color: black;
 }
+.content .parallelgrid span {
+  display: inline-block;
+  border-radius: 8px;
+  border: 2px solid var(--color-gray);
+  margin-bottom: var(--space-medium);
+  padding: var(--space-small);
+}
 
 /* Tablets */
 @media (min-width: 550px) {
@@ -24,7 +31,13 @@
     column-gap: var(--space-medium);
   }
 }
-
+@media (min-width: 550px) {
+  .content .parallelgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: var(--space-big);
+  }
+}
 /* Desktop */
 @media (min-width: 750px) {
   .content .grid {
