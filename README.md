@@ -10,7 +10,7 @@ git clone https://github.com/your_username_/CurriculumVitae.git
 ```
 
 ## Roadmap
-See the [open issues](https://github.com/eu-snehagupta/MoneyTracking/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/eu-snehagupta/CurriculumVitae/issues) for a list of proposed features (and known issues).
 
 ## Contributing
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
